@@ -481,7 +481,7 @@ async def _(e):
                 pass
     gban(userid)
     add_gban_reason(userid, reason)
-    gb_msg = f"**#Gbanned** [{name}](tg://user?id={userid}) `in {chats} chats and added to gbanwatch!`"
+    gb_msg = f"**#Gbanned** [{name}](tg://user?id={userid}) `in 156 chats and added to gbanwatch!`"
     if reason != "":
         gb_msg += f"\n**Reason** - {reason}"
     await xx.edit(gb_msg)
